@@ -4,7 +4,7 @@ Dynamic multithreading application.
 
 Usage:
 ```
-gcc f201220044.c -o multithreading.o
+gcc multithreading.c -o multithreading.o
 ./multithreading.o miniapp1.o 3
 ```
 
