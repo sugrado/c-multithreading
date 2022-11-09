@@ -25,7 +25,7 @@ void main(int argc, char * argv[]) {
       printf("[Main] File not found!");
       return;
     }
-  } else if (pid > 0) {
+  } else {
     sleep(convertedSecond);
     kill(pid, SIGKILL);
     printf("[Main] %d seconds is over. %s terminated.\n", convertedSecond, argv[1]);
